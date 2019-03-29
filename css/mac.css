@@ -1,0 +1,315 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "微软雅黑";
+}
+body{
+	font-family: "微软雅黑";
+}
+/*导航栏开始*/
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: black;
+}
+#nav_li1 li,#nav_img,#nav_li2,#nav_right span{
+	float: left;
+}
+#nav_li1 li a{
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+}
+#nav_img{
+	margin: 8px 80px 0px 228px;
+}
+#nav_li1{
+	padding-top: 14px;
+}
+#nav_li1 a:hover{
+	text-decoration: underline;
+	 
+}
+#nav_li2{
+	color: white;
+	font-size: 9px;
+	padding-top: 14px;
+}
+#nav_right,.email,#nav_li2,.shoppingcar,#nav_search{
+	padding-right: 40px;
+}
+
+#nav_li2{
+	padding-top: 0px;
+}
+#nav_search{
+	padding: 0px 50px 0px 40px;
+	margin-right: 50px;
+}
+
+#nav_hidden{
+	display: none;
+}
+/*导航栏结束*/
+/*轮播图开始*/
+#content{
+	width: 1200px;
+	margin: 0 auto;
+}
+header{
+	width: 900px;
+	height: 280px;
+	margin: 0 auto;
+	position: relative;
+}
+#header img{
+	width: 1050px;
+	height: 300px;
+	position: absolute;
+    right: -65px;
+}
+header #header_ul{
+	position:absolute;
+	left:50%;
+	bottom: -40px;
+	left: 430px;
+	margin: 0 auto;
+}
+#header_ul li{
+	float: left;
+	
+}
+#header_ul li a{ 
+	float:left;
+	width: 10px;
+	height: 10px;
+	border-radius:50%; 
+	background-color:gainsboro;
+	margin:3px;
+}
+#header_ul li a:hover{
+	background: black;
+}
+#header_buy{
+	position: absolute;
+	bottom: 2px;
+	left:420px;
+	margin: 0 auto;
+	color: white;
+}
+/*轮播图结束*/
+/*粉底液眼影开始*/
+#product{
+	width: 1050px;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-left: 240px;
+}
+#product_one ,#product_two{
+	float: left;
+	margin:5px;
+}
+#product_one span,#product_two span{
+	font-size: 28px;
+}
+#product_one img,#product_two img{
+	width: 500px;
+}
+#product_one ul,#product_two ul{
+	text-align: center;
+}
+#product_one ul li,#product_two ul li{
+	font-size: 12px;
+	font-family: "宋体";
+}
+#product_one ul a,#product_two ul a{
+	text-decoration: none;
+	color: black;
+	margin: 20px;
+}
+/*粉底液眼影结束*/
+/*人气必buy开始*/
+#humanbuy{
+	width:1050px ;
+	height: 500px;
+	margin: 0 auto;
+}
+#humanbuy_selected{
+	width:1050px ;
+	height: 100px;
+	margin-top: 0px;
+	margin-left: 220px;
+	margin: 0 auto;
+}
+#humanbuy_selected  li a{
+	float: left;
+	border: 1px solid black;
+	width: 120px;
+	height: 27px;
+	margin: 5px;
+	padding-top: 5px;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+#humanbuy_selected ul li a:hover{
+	background: black;
+	color: white;
+}
+#humanbuy_selected ul li{
+	background: white;
+	margin-left: 320px;
+}
+#humanbuy_selected p{
+	text-align: center;
+	font-size: 28px;
+}
+/*人气必buy结束*/
+/*人气必buy图开始*/
+#humanbuy_intr{
+	width: 1050px;
+	height: 400px;
+	margin: 0 auto;
+}
+#humanbuy #humanbuy_intr ul{
+	float: left;
+	width: 240px;
+	margin-right:30px ;
+	border-top: 1px solid gainsboro;
+}
+#humanbuy #humanbuy_intr ul:last-child{
+	margin-right: 0px;
+}
+#humanbuy #humanbuy_intr ul li img{
+	width: 240px;
+	height: 260px;
+	border-bottom: 1px solid gainsboro;
+	margin-bottom: 14px;
+}
+#humanbuy #humanbuy_intr ul p{
+	font-size: 14px;
+}
+#humanbuy #humanbuy_intr ul li{
+	font-size: 8px;
+	margin-top: 5px;
+}
+#humanbuy #humanbuy_intr ul .hu_span1{
+	margin-right: 124px;
+}
+#humanbuy #humanbuy_intr ul .hu_span2{
+	border: 1px solid black;
+	width: 12px;
+	font-size: 13px;
+	background: black;
+	width: 10px;
+}
+#humanbuy #humanbuy_intr ul .hu_span2 a{
+	text-decoration: none;
+	color: white;
+}
+#humanbuy #humanbuy_intr ul .hu_span2 a:hover{
+	text-decoration: underline;
+}
+/*人气必buy图结束*/
+
+/*明星新品开始*/
+#star{
+	width: 1050px;
+	height: 640px;
+	margin: 0 auto;
+}
+#star .line1 ul li img,#star .line2 ul li img{
+	width: 252px;
+	height: 258px;
+	margin-right: 6px;
+}
+#star .line2{
+	margin-top: 30px;
+}
+#star p{
+	font-size: 30px;
+	text-align: center;
+}
+/*明星新品结束*/
+/*底部信息开始*/
+#bottom{
+	width: 100%;
+	height: 320px;
+	background:#282828;
+}
+#bottom_info{
+	width: 1100px;
+	height: 280px;
+	margin: 0 auto;
+}
+#bottom_info dl{
+	float: left;
+	padding: 32px;
+}
+#bottom_info dl dt{
+	color: white;
+	font-size: 18px;
+}
+#bottom #bottom_info dl dt{
+	padding-bottom: 20px;
+}
+#bottom_info dl  dd a{
+	color: #FFFFFF;
+	font-size: 12px;
+}
+#bottom_info dl  dd a .weibo{
+	position: relative;
+	left:50px;
+	bottom: 34px;
+}
+#bottom #bottom_info #other{
+	position: relative;
+	left: 390px;
+	top: -40px;
+}
+#bottom #bottom_info #other dd a{
+	font-size: 16px;
+	color: gray;
+	padding-left: 10px;
+}
+/*底部信息结束*/
+
+/*脚本开始*/
+footer{
+	width: 100%;
+	height: 80px;
+	background: #000000;
+}
+footer div{
+	width: 1050px;
+	margin: 0 auto;
+}
+footer div .footer_p1{
+	font-size: 12px;
+	color: #282828;
+	line-height: 80px;
+	display: inline-block;
+}
+footer div .footer_p2{
+	display: inline-block;
+}
+footer div .footer_p1 span{
+	padding: 10px;
+}
+footer div .footer_p1 .footer_span{
+	padding-left: 40px;
+}
+/*脚本结束*/
+/*固定框开始*/
+#fixed{
+	position: fixed;
+	left:20px;
+	bottom: 10px;
+}
+#fixed img{
+	width: 200px;
+}
+/*固定框结束*/
